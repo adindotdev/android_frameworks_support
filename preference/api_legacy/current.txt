@@ -243,6 +243,7 @@ package android.support.v7.preference {
     method protected android.os.Parcelable onSaveInstanceState();
     method protected void onSetInitialValue(boolean, java.lang.Object);
     method public android.os.Bundle peekExtras();
+    method protected boolean isPersisted();
     method protected boolean persistBoolean(boolean);
     method protected boolean persistFloat(float);
     method protected boolean persistInt(int);
